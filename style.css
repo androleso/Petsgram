@@ -73,11 +73,11 @@ body {
     align-items: center;
     border-radius: 50%;
     overflow: hidden;
-  }
+ }
 
-  .profile-photo img {
-      height: 10rem;
-  }
+.profile-photo img {
+    height: 10rem;
+}
 
 .petsgram-login {
     margin-top: 100px;
