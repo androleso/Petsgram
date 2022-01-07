@@ -29,11 +29,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 40%;
+    /*margem adicionada*/
+    margin-right: 20px;
 }
 
 .petsgram-phones img {
-    height: 50rem;
+        height: 45rem;
 }
 
 .petsgram-continue {
@@ -43,7 +45,7 @@ body {
     flex-direction: column;
     width: 50%;
     min-height: 34rem;
-}
+  }
 
 .group {
     display: flex;
@@ -53,6 +55,7 @@ body {
     background-color: #ffffff;
     width: 100%;
     padding: 1.3rem 0;
+    margin-top: 10px;
     border: 1px solid lightgrey;
 }
 
@@ -77,15 +80,18 @@ body {
   }
 
 .petsgram-login {
+    margin-top: 100px;
     background-color: #f6dd00;
     color: #ffffff;
     padding: 8px;
     border-radius: 4px;
+    font-weight: bold;
 }
 
 .petsgram-logout {
     color: #f6dd00;
     margin-top: 1rem;
+    font-weight: bold;
 }
 
 .not-account {
@@ -94,6 +100,7 @@ body {
 
 .link-yellow {
     color: #f6dd00;
+    font-weight: bold;
 }
 
 .get-the-app {
@@ -105,7 +112,7 @@ body {
     padding: 1.3rem 0;
 }
 
-.dowload {
+.download {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
@@ -114,7 +121,7 @@ body {
 }
 
 .app-download {
-    height: 3rem;
+    height: 4rem;
     width: 10rem;
     background-size: cover;
 }
@@ -127,17 +134,18 @@ body {
     background-image: url('./img/applestoreLogo.png');
 }
 
-@media (max-width: 2060px) {
+@media (max-width: 1024px) {
     .petsgram-wrapper {
         width: 90%;
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 875px) {
     body {
         background-color: #ffffff;
     }
-    .petsgram-wrapper {width: 90%;
+    .petsgram-wrapper {
+        width: 90%;
     }
     .petsgram-phones {
         display: none;
@@ -146,8 +154,12 @@ body {
     .petsgram-continue {
         width: 100%;
     }
+   
+    .app-download {
+        display: flex;
+    }
 
     .group {
         border: 1px solid transparent;
-    }
+    }  
 }
